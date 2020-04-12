@@ -1,0 +1,59 @@
+body{
+    font-family: sans-serif;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+#block-one{
+    background-image: url(../images/greenmoss.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#block-two{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 45px;
+}
+
+.header{
+    font-size: 20px;
+}
+
+.header > img{
+    border: 5px solid white;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.paragraph{
+    padding: 35px;
+    line-height: 120%;
+    border: 15px solid white;
+    font-size: 32px;
+}
+
+span{
+    text-transform: uppercase;
+}
+
+.paragraph > p > a:link{
+    color: green;
+    text-decoration: overline underline;
+}
+
+.paragraph > p > a:hover{
+    background-color: white;
+    color: black;
+}
+
+.paragraph > p > a:active{
+    color: green;
+}
+
+.paragraph > p > a:visited{
+    color: gray;
+}
