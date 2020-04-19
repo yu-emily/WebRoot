@@ -6,10 +6,20 @@ body{
     overflow-x: hidden;
 }
 
+.container-fluid{
+    display: block;
+}
+
+#block-one > card{
+    max-width: 50vw;
+}
+
+.card-body > a:link{
+    color: green;
+}
+
 #block-one{
-    background-image: url(../images/greenmoss.png);
-    background-repeat: no-repeat;
-    background-size: cover;
+    padding: 0;
 }
 
 #block-two{
@@ -23,13 +33,11 @@ body{
     font-size: 20px;
 }
 
-.header > img{
-    border: 5px solid white;
-    border-radius: 50%;
-    margin-bottom: 15px;
+.media > img{
+    border: 5px solid black;
 }
 
-.paragraph{
+#block-two > p{
     padding: 35px;
     line-height: 120%;
     border: 15px solid white;
@@ -40,20 +48,50 @@ span{
     text-transform: uppercase;
 }
 
-.paragraph > p > a:link{
+#block-two > p > a:link{
     color: green;
     text-decoration: overline underline;
 }
 
-.paragraph > p > a:hover{
+#block-two > p > a:hover{
     background-color: white;
     color: black;
 }
 
-.paragraph > p > a:active{
+#block-two > p > a:active, .card-body > a:active{
     color: green;
 }
 
-.paragraph > p > a:visited{
+#block-two > p > a:visited, .card-body > a:visited{
     color: gray;
 }
+
+/*RESOURCES PAGE*/
+header, nav, article{
+    margin: 15px;
+    padding: 15px;
+}
+
+header > h1{
+    font-size: 50px;
+    text-align: center;
+}
+
+nav > a{
+    color: green;
+}
+
+nav > a:hover{
+    color: black;
+}
+
+article > div > div > div > div> a{
+    color: black;
+}
+
+article > div > div > div > div > a:hover{
+    text-decoration: none;
+    color: green;
+}
+
+
